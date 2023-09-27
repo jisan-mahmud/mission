@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha384-z6t0fyzzH3QvDgAI4KLEf1TQNxqo5KU6TEgEYj5wCPegsP4Nj5KcN3y6PjFovQTr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Facebook Report</title>
+    <script src="https://kit.fontawesome.com/87115898c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#" id="fb"> <i class="fab fa-facebook-f    "></i> </a> </li>
+                <li> <button id="search_btn" class="" data-tooltip="Search"><i class="fa-solid fa-magnifying-glass"></i> </button> </li>
+                <li id="space2"></li>
+                <li> <a class=" active" href="#" id="home"><i class="fa-solid fa-house"></i></a> </li>
+                <li> <a class="" data-tooltip="Group" href="#" id="group"> <i class="fas fa-user-friends    "></i> </a></li>
+                <li> <a class="" data-tooltip="Watch" href="#" id="tv"> <i class="fas fa-tv    "></i> </a> </li>
+                <li> <a class="" data-tooltip="Friend" href="#" id="friend"> <i class="fas fa-user-alt    "></i> </a> </li>
+                <li id="space1"></li>
+                <li> <button class="" data-tooltip="Add" id="btn_plus"><i class="fas fa-plus    "></i></button> </li>
+                <li> <button class="" data-tooltip="Message" id="btn_msg"><i class="fab fa-facebook-messenger    "></i></button></li>
+                <li> <button class="" data-tooltip="Notification" id="btn_bell"> <i class="fas fa-bell    "></i></button></li>
+                <li>  <button class="" data-tooltip="Profile" id="btn_profile"><i class="fas fa-user-cog    "></i></button>  </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form>
+            <h3>How can we improve?</h3>
+            <div id="custom_select">
+                <span>Choose an area</span>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">Ads</option>
+                    <option value="2">Aduio channels</option>
+                    <option value="3">Community Chats</option>
+                    <option value="4">Composer/Posting</option>
+                    <option value="5">COVID-19 Information Center</option>
+                    <option value="6">Crowdsourcing</option>
+                    <option value="7" selected>Account Restricted</option>
+                    <option value="8">Events</option>
+                    <option value="9">Facebook Play</option>
+                    <option value="10">Messenger</option>
+                    <option value="11">Group</option>
+                    <option value="12">Home Page</option>
+                    <option value="13">Jobs</option>
+                    <option value="14">Stories</option>
+                    <option value="15">Voting information center</option>
+                    <option value="16">Social good/fundraiser/Safety Check</option>
+                    <option value="17">Secret conversation</option>
+                    <option value="18">Professional dashboard</option>
+                    <option value="19">Suggest Friend</option>
+                    <option value="20">Search</option>
+                    <option value="21">Other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Details</label>
+                <textarea class="form-control" placeholder="Please include as much information as possible..." id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Add a Screenshot or Video (recommended)</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="notice">
+                <p>
+                    Let us know if you have ideas that can help make our product better. if you need help with solving a specific problem, please visit the <a>Help Center.</a>
+                </p>
+            </div>
+            <div id="button">
+                <button type="reset" class="btn btn-primary reset">Reset</button>
+                <button type="submit" class="btn btn-primary submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <!-- Add your logo or icon here -->
+            </div>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+        <div class="footer-social">
+            <!-- Add social media icons or links here -->
+        </div>
+        <div class="footer-copyright">
+            <p>Meta © 2023</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
